@@ -1,0 +1,8 @@
+numpy
+torch
+segment_anything
+torchvision
+opencv-python
+matplotlib
+PyQt5
+os
