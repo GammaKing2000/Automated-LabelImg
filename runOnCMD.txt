@@ -1,0 +1,1 @@
+pyuic5 -x "ui file location" -o "python file location"
