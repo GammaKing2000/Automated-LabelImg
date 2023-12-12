@@ -219,7 +219,7 @@ class Ui_SAMprototype(object):
         input_label = np.array([1])
         masks, scores, logits = self.predictor.predict(point_coords = input_point,
                   point_labels = input_label,
-                  multimask_output=True)
+                  multimask_output=False)
         x, y, height, width = self.getBoxCoords(masks[0])
         tempImage = cv2.imread(self.imagePath)
         tempImage = cv2.resize(tempImage, self.IMAGE_SIZE)
